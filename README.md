@@ -4,16 +4,18 @@ Subtitle Search Engine
 #Overview
 Subtitle Search Engine is a project aimed at enhancing the accessibility of video content by improving the search relevance of subtitles. The project focuses on developing an advanced search engine algorithm that efficiently retrieves subtitles based on user queries, emphasizing natural language processing (NLP) and machine learning techniques.
 
-#Features
+# Features
 Semantic Search: Utilizes semantic search engines over traditional keyword-based search engines to understand the meaning and context of queries and documents.
 Data Preprocessing: Cleans subtitle data by removing timestamps to ensure accurate analysis.
 Vectorization: Converts textual data into numerical representations for comparison.
-Cosine Similarity Calculation: Measures the relevance of documents to the user's query based on vector representations.
-#Core Logic
+Cosine Similarity Calculation: Measures the relevance of documents to the user's query based on vector representations.  
+
+# Core Logic
 Data Preprocessing: Clean subtitle documents by removing timestamps and other irrelevant information.
 Vectorization: Convert subtitle documents and user queries into numerical representations.
 Cosine Similarity Calculation: Calculate cosine similarity between vector representations of subtitle documents and user queries to determine relevance.
-#Technologies Used
+
+# Technologies Used
 Python
 Natural Language Processing (NLP) libraries (e.g., NLTK, spaCy)
 Machine Learning libraries (e.g., scikit-learn)
